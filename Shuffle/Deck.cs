@@ -6,31 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shuffle
 {
-    public class Deck
+    public class Deck : IDeck
     {
         public Deck()
         {
 
-        }
-
-        public void Display()
-        {
-
-        }
-
-        public void Shuffle()
-        {
-
-        }
-
-        public int CardsRemaining()
-        {
-            return 0;
-        }
-
-        public Card Draw()
-        {
-            return new Card();
         }
     }
 }
